@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
     color: white;
     margin: 0;
     margin-right: 5%;
-    visibility: hidden;
+    display: none;
 }
 
 .bars i {
@@ -67,7 +67,10 @@ body::-webkit-scrollbar {
     font-weight: 100;
     font-size: 0.9rem;
 }
-
+.vertical
+{
+    padding: 5px;
+}
 .no-list-style li a{
     list-style: none;
     color: white;
@@ -581,9 +584,7 @@ button:focus {
 
     .bars {
         display: block;
-        visibility: visible;
     }
-    
     
     .nav-menu {
         display: none;

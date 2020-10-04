@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
     color: white;
     margin: 0;
     margin-right: 5%;
-    
+    visibility: hidden;
 }
 
 .bars i {
@@ -581,6 +581,7 @@ button:focus {
 
     .bars {
         display: block;
+        visibility: visible;
     }
     
     
